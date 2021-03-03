@@ -1,4 +1,8 @@
 ---
-- name: Test
+- name: Udemy Master Class
   debug:
-     msg: "Test message"
+     msg: "Udemy Master Class"
+
+- name: List files in root folder
+  #gather_facts: false
+  command: "ls /"
